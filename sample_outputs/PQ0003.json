@@ -1,0 +1,80 @@
+{
+  "file": "test_audio\\PQ0003.wav",
+  "conversation_id": "PQ0003",
+  "turn": 1,
+  "heard": "how fast are refunds to the zentromart wallet",
+  "alternatives": [
+    "हाउ फ़ास्ट आर रिफंड्स टू दी जेंट्रोमार्ट वॉलेट"
+  ],
+  "stt_error": "",
+  "reply_text": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are processed instantly and will reach you within two hours of initiation.",
+  "reply_audio": "sample_outputs\\PQ0003.reply.wav",
+  "tts_error": "",
+  "sources": [
+    "REF-2",
+    "REF-3",
+    "RET-7",
+    "PAY-4",
+    "REF-6",
+    "PLS-2",
+    "KB-00.3",
+    "KB-00.1",
+    "STY-1"
+  ],
+  "chunks": [
+    {
+      "id": "REF-2",
+      "title": "How long refunds take after initiation",
+      "score": 0.0333
+    },
+    {
+      "id": "REF-3",
+      "title": "Cash-on-delivery refunds",
+      "score": 0.0325
+    },
+    {
+      "id": "RET-7",
+      "title": "After pickup",
+      "score": 0.0323
+    },
+    {
+      "id": "PAY-4",
+      "title": "ZentroMart Wallet",
+      "score": 0.032
+    },
+    {
+      "id": "REF-6",
+      "title": "Refund reference number",
+      "score": 0.031
+    },
+    {
+      "id": "PLS-2",
+      "title": "Benefits",
+      "score": 0.0308
+    },
+    {
+      "id": "KB-00.3",
+      "title": "Business days",
+      "score": 0.0263
+    },
+    {
+      "id": "KB-00.1",
+      "title": "Which document wins",
+      "score": 0.0167
+    }
+  ],
+  "tool_calls": [],
+  "ticket_id": null,
+  "decision_hint": "",
+  "latency_s": {
+    "stt": 1.98,
+    "agent": 37.94,
+    "total": 41.72
+  },
+  "error": "",
+  "rewritten_query": "how fast are refunds to the zentromart wallet",
+  "guard": "",
+  "spoken_text": "I'm ZentroMart's AI assistant. Refunds to the ZentroMart Wallet are processed instantly and will reach you within two hours of initiation.",
+  "tts_voice": "Kaveri",
+  "tts_language": "en-IN"
+}

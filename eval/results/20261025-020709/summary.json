@@ -1,0 +1,23 @@
+{
+  "questions": {
+    "rag": {
+      "n": 3,
+      "pass": 2,
+      "pass_rate": 0.667,
+      "by_language": {
+        "hi-en": "0/1",
+        "en": "2/2"
+      },
+      "by_intent": {
+        "warranty": "0/1",
+        "refund_timeline": "1/1",
+        "unsupported": "1/1"
+      },
+      "errors": 0,
+      "unanswerable_pass": "1/1",
+      "avg_latency_s": 1.83,
+      "wall_s": 5.5,
+      "retrieval_recall": 1.0
+    }
+  }
+}

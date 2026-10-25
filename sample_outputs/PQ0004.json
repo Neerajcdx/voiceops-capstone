@@ -1,0 +1,74 @@
+{
+  "file": "test_audio\\PQ0004.wav",
+  "conversation_id": "PQ0004",
+  "turn": 1,
+  "heard": "can i schedule a delivery at midnight",
+  "alternatives": [
+    "कैन आई शेड्यूल ए डिलीवरी एट मिडनाइट"
+  ],
+  "stt_error": "",
+  "reply_text": "I'm ZentroMart's AI assistant. I'm sorry, but we do not offer midnight delivery scheduling. You can choose from our available delivery slots during checkout.",
+  "reply_audio": "sample_outputs\\PQ0004.reply.wav",
+  "tts_error": "",
+  "sources": [
+    "DEL-2",
+    "DEL-3",
+    "REF-5",
+    "DEL-6",
+    "PAY-1",
+    "PAY-2",
+    "KB-00.3",
+    "STY-1"
+  ],
+  "chunks": [
+    {
+      "id": "DEL-2",
+      "title": "Delivery fees",
+      "score": 0.0328
+    },
+    {
+      "id": "DEL-3",
+      "title": "Delivery attempts",
+      "score": 0.0321
+    },
+    {
+      "id": "REF-5",
+      "title": "Delivery and COD fees",
+      "score": 0.0315
+    },
+    {
+      "id": "DEL-6",
+      "title": "Changing the address",
+      "score": 0.0315
+    },
+    {
+      "id": "PAY-1",
+      "title": "Payment methods",
+      "score": 0.0306
+    },
+    {
+      "id": "PAY-2",
+      "title": "Cash on delivery",
+      "score": 0.0301
+    },
+    {
+      "id": "KB-00.3",
+      "title": "Business days",
+      "score": 0.0102
+    }
+  ],
+  "tool_calls": [],
+  "ticket_id": null,
+  "decision_hint": "",
+  "latency_s": {
+    "stt": 1.69,
+    "agent": 13.44,
+    "total": 16.85
+  },
+  "error": "",
+  "rewritten_query": "can i schedule a delivery at midnight",
+  "guard": "",
+  "spoken_text": "I'm ZentroMart's AI assistant. I'm sorry, but we do not offer midnight delivery scheduling. You can choose from our available delivery slots during checkout.",
+  "tts_voice": "Kaveri",
+  "tts_language": "en-IN"
+}

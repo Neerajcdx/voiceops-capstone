@@ -1,0 +1,21 @@
+{
+  "file": "test_audio\\PQ0006.wav",
+  "conversation_id": "PQ0006",
+  "turn": 1,
+  "heard": "",
+  "alternatives": [],
+  "stt_error": "",
+  "reply_text": "Sorry, I didn't catch that. Could you say it again?",
+  "reply_audio": "",
+  "tts_error": "",
+  "sources": [],
+  "chunks": [],
+  "tool_calls": [],
+  "ticket_id": null,
+  "decision_hint": "",
+  "latency_s": {
+    "total": 0.03
+  },
+  "error": "RuntimeError: cannot schedule new futures after interpreter shutdown",
+  "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\Nedstark\\Desktop\\Capstone\\voiceops-agent\\voiceops-agent\\src\\voiceops\\batch.py\", line 78, in process_conversation\n    stt = voice.transcribe(f) if voice else SttResult(error=\"voice disabled\")\n          ~~~~~~~~~~~~~~~~^^^\n  File \"C:\\Users\\Nedstark\\Desktop\\Capstone\\voiceops-agent\\voiceops-agent\\src\\voiceops\\voice.py\", line 198, in transcribe\n    outs = list(ex.map(run, languages))\n                ~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Nedstark\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\concurrent\\futures\\_base.py\", line 651, in map\n    fs = [self.submit(fn, *args) for args in zipped_iterables]\n          ~~~~~~~~~~~^^^^^^^^^^^\nRuntimeError: cannot schedule new futures after interpreter shutdown\n"
+}

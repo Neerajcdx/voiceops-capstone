@@ -1,0 +1,80 @@
+{
+  "question@k4": {
+    "k": 4,
+    "field": "question",
+    "n": 47,
+    "recall@k": 0.972,
+    "full_hit_rate": 0.936,
+    "mrr": 0.871,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 0.956,
+      "hi": 1.0
+    }
+  },
+  "question@k5": {
+    "k": 5,
+    "field": "question",
+    "n": 47,
+    "recall@k": 1.0,
+    "full_hit_rate": 1.0,
+    "mrr": 0.871,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 1.0,
+      "hi": 1.0
+    }
+  },
+  "question@k6": {
+    "k": 6,
+    "field": "question",
+    "n": 47,
+    "recall@k": 1.0,
+    "full_hit_rate": 1.0,
+    "mrr": 0.871,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 1.0,
+      "hi": 1.0
+    }
+  },
+  "asr_text@k4": {
+    "k": 4,
+    "field": "asr_text",
+    "n": 47,
+    "recall@k": 0.965,
+    "full_hit_rate": 0.936,
+    "mrr": 0.842,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 0.944,
+      "hi": 1.0
+    }
+  },
+  "asr_text@k5": {
+    "k": 5,
+    "field": "asr_text",
+    "n": 47,
+    "recall@k": 0.979,
+    "full_hit_rate": 0.979,
+    "mrr": 0.842,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 0.967,
+      "hi": 1.0
+    }
+  },
+  "asr_text@k6": {
+    "k": 6,
+    "field": "asr_text",
+    "n": 47,
+    "recall@k": 0.979,
+    "full_hit_rate": 0.979,
+    "mrr": 0.842,
+    "by_language": {
+      "hi-en": 1.0,
+      "en": 0.967,
+      "hi": 1.0
+    }
+  }
+}

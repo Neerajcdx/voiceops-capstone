@@ -1,0 +1,65 @@
+{
+  "questions": {
+    "baseline": {
+      "n": 52,
+      "pass": 12,
+      "pass_rate": 0.231,
+      "by_language": {
+        "hi-en": "1/11",
+        "en": "8/33",
+        "hi": "3/8"
+      },
+      "by_intent": {
+        "warranty": "0/5",
+        "refund_timeline": "1/14",
+        "unsupported": "3/5",
+        "return_fee": "1/2",
+        "return_eligibility": "1/4",
+        "return_window": "3/11",
+        "delivery_attempts": "0/1",
+        "fraud": "0/1",
+        "damaged_item": "0/3",
+        "troubleshooting": "0/1",
+        "delivery_area": "1/1",
+        "cancel_order": "1/2",
+        "late_delivery": "0/1",
+        "policy_override": "1/1"
+      },
+      "errors": 0,
+      "unanswerable_pass": "3/5",
+      "avg_latency_s": 3.27,
+      "wall_s": 170.0
+    },
+    "rag": {
+      "n": 52,
+      "pass": 39,
+      "pass_rate": 0.75,
+      "by_language": {
+        "hi-en": "6/11",
+        "en": "28/33",
+        "hi": "5/8"
+      },
+      "by_intent": {
+        "warranty": "3/5",
+        "refund_timeline": "12/14",
+        "unsupported": "2/5",
+        "return_fee": "2/2",
+        "return_eligibility": "4/4",
+        "return_window": "8/11",
+        "delivery_attempts": "1/1",
+        "fraud": "0/1",
+        "damaged_item": "1/3",
+        "troubleshooting": "1/1",
+        "delivery_area": "1/1",
+        "cancel_order": "2/2",
+        "late_delivery": "1/1",
+        "policy_override": "1/1"
+      },
+      "errors": 3,
+      "unanswerable_pass": "2/5",
+      "avg_latency_s": 5.79,
+      "wall_s": 301.3,
+      "retrieval_recall": 1.0
+    }
+  }
+}

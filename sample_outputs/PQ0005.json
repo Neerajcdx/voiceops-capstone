@@ -1,0 +1,90 @@
+{
+  "file": "test_audio\\PQ0005.wav",
+  "conversation_id": "PQ0005",
+  "turn": 1,
+  "heard": "school la zero zero zero to peas entromart assured hai kya claim kaise karen",
+  "alternatives": [
+    "स्कू एल ए ज़ीरो ज़ीरो ज़ीरो टू पी ज़ेंट्रोमार्ट अश्योर्ड है क्या क्लेम कैसे करें"
+  ],
+  "stt_error": "",
+  "reply_text": "नमस्ते, मैं ZentroMart का AI सहायक हूँ। क्या आप मुझे उस प्रोडक्ट का नाम बता सकते हैं जिसे आप देख रहे हैं, या फिर उसका SKU नंबर? मैं आपकी मदद करने की पूरी कोशिश करूँगा।",
+  "reply_audio": "sample_outputs\\PQ0005.reply.wav",
+  "tts_error": "",
+  "sources": [
+    "WAR-2",
+    "WAR-1",
+    "MKS-3",
+    "WAR-3",
+    "DWM-4",
+    "RET-1",
+    "DWM-3",
+    "ESC-1",
+    "STY-1"
+  ],
+  "chunks": [
+    {
+      "id": "WAR-2",
+      "title": "ZentroMart Assured",
+      "score": 0.0333
+    },
+    {
+      "id": "WAR-1",
+      "title": "Brand warranty",
+      "score": 0.0328
+    },
+    {
+      "id": "MKS-3",
+      "title": "Warranty",
+      "score": 0.0323
+    },
+    {
+      "id": "WAR-3",
+      "title": "What warranty does not cover",
+      "score": 0.0317
+    },
+    {
+      "id": "DWM-4",
+      "title": "Reported after 48 hours",
+      "score": 0.031
+    },
+    {
+      "id": "RET-1",
+      "title": "Scope",
+      "score": 0.029
+    },
+    {
+      "id": "DWM-3",
+      "title": "High-value items",
+      "score": 0.0288
+    },
+    {
+      "id": "ESC-1",
+      "title": "When to hand over to a human",
+      "score": 0.024
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "lookup_product",
+      "args": {
+        "query": "0002"
+      },
+      "result": {
+        "found": false
+      }
+    }
+  ],
+  "ticket_id": null,
+  "decision_hint": "",
+  "latency_s": {
+    "stt": 4.91,
+    "agent": 49.99,
+    "total": 57.27
+  },
+  "error": "",
+  "rewritten_query": "how to claim warranty for Entromart Assured product SKU: school0002",
+  "guard": "",
+  "spoken_text": "नमस्ते, मैं ZentroMart का AI सहायक हूँ। क्या आप मुझे उस प्रोडक्ट का नाम बता सकते हैं जिसे आप देख रहे हैं, या फिर उसका SKU नंबर? मैं आपकी मदद करने की पूरी कोशिश करूँगा।",
+  "tts_voice": "Nalini",
+  "tts_language": "hi-IN"
+}

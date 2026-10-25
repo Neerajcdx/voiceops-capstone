@@ -1,0 +1,101 @@
+{
+  "file": "test_audio\\PQ0002.wav",
+  "conversation_id": "PQ0002",
+  "turn": 1,
+  "heard": "so school la zero zero one to peas entromart assured hai kya claim",
+  "alternatives": [
+    "सो स्कू एल ए ज़ीरो ज़ीरो वन टू पीस एंट्रोमर्ट अश्योर्ड है क्या क्लेम कैसे करें"
+  ],
+  "stt_error": "",
+  "reply_text": "I'm ZentroMart's AI assistant. The Kestrel K7 Smartphone is a ZentroMart Assured product, which includes a 12-month warranty from the delivery date. You can raise a claim for this in the app under My Orders, and ZentroMart will arrange for pickup and repair or replacement.",
+  "reply_audio": "sample_outputs\\PQ0002.reply.wav",
+  "tts_error": "",
+  "sources": [
+    "WAR-2",
+    "MKS-3",
+    "WAR-1",
+    "WAR-3",
+    "DWM-4",
+    "RET-1",
+    "DWM-3",
+    "ESC-1",
+    "products.csv:ELE-0012",
+    "STY-1"
+  ],
+  "chunks": [
+    {
+      "id": "WAR-2",
+      "title": "ZentroMart Assured",
+      "score": 0.0333
+    },
+    {
+      "id": "MKS-3",
+      "title": "Warranty",
+      "score": 0.0325
+    },
+    {
+      "id": "WAR-1",
+      "title": "Brand warranty",
+      "score": 0.0325
+    },
+    {
+      "id": "WAR-3",
+      "title": "What warranty does not cover",
+      "score": 0.0317
+    },
+    {
+      "id": "DWM-4",
+      "title": "Reported after 48 hours",
+      "score": 0.031
+    },
+    {
+      "id": "RET-1",
+      "title": "Scope",
+      "score": 0.0288
+    },
+    {
+      "id": "DWM-3",
+      "title": "High-value items",
+      "score": 0.0288
+    },
+    {
+      "id": "ESC-1",
+      "title": "When to hand over to a human",
+      "score": 0.0126
+    }
+  ],
+  "tool_calls": [
+    {
+      "name": "lookup_product",
+      "args": {
+        "query": "ELE-0012"
+      },
+      "result": [
+        {
+          "sku": "ELE-0012",
+          "title": "Kestrel K7 Smartphone 128 GB, Beige",
+          "brand": "Kestrel",
+          "return_category": "electronics",
+          "price_inr": "17549",
+          "fulfilled_by": "ZentroMart",
+          "assured": "True",
+          "warranty_months": "12",
+          "description": "Kestrel K7 Smartphone 128 GB, Beige. Sold on ZentroMart."
+        }
+      ]
+    }
+  ],
+  "ticket_id": null,
+  "decision_hint": "",
+  "latency_s": {
+    "stt": 5.97,
+    "agent": 4.1,
+    "total": 11.79
+  },
+  "error": "",
+  "rewritten_query": "Entromart Assured claim process for SKU school-la-001-2",
+  "guard": "",
+  "spoken_text": "I'm ZentroMart's AI assistant. The Kestrel K7 Smartphone is a ZentroMart Assured product, which includes a 12-month warranty from the delivery date. You can raise a claim for this in the app under My Orders, and ZentroMart will arrange for pickup and repair or replacement.",
+  "tts_voice": "Kaveri",
+  "tts_language": "en-IN"
+}

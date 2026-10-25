@@ -1,0 +1,43 @@
+{
+  "conversations": {
+    "rag": {
+      "turns": 96,
+      "turn_pass": 83,
+      "turn_pass_rate": 0.865,
+      "conversations": 23,
+      "conversation_pass": 11,
+      "tool_call_ok": "94/96",
+      "escalations_ok": "4/6",
+      "by_scenario": {
+        "high_value_damage": "4/4",
+        "return_eligibility": "7/10",
+        "human_requested": "7/8",
+        "repeat_contact": "7/8",
+        "refund_status": "7/8",
+        "where_is_my_order": "8/8",
+        "topic_switch": "9/10",
+        "compensation_demand": "6/8",
+        "cancel_unshipped_order": "7/8",
+        "cancel_shipped_order": "6/8",
+        "failed_verification": "7/8",
+        "express_late_credit": "8/8"
+      },
+      "retrieval_recall": 0.964,
+      "failed_turns": [
+        "PC003#4",
+        "PC003#5",
+        "PC004#4",
+        "PC006#4",
+        "PC007#4",
+        "PC010#4",
+        "PC013#4",
+        "PC015#4",
+        "PC016#4",
+        "PC017#2",
+        "PC019#4",
+        "PC020#4",
+        "PC021#4"
+      ]
+    }
+  }
+}
